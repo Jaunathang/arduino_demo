@@ -1,1 +1,5 @@
-# arduino_demo
+# Barduino
+Le programme se veut être un projet personnel et exploratoire. L'idée de base était la fois d'expérimenter le développement Arduino avec de nouveaux capteurs et de pimenter mes vendredi soirs. En effet, Barduino calcule votre rythme cardiaque et vous distribue ensuite un cocktail à l'image de cet unique paramètre. Le résultat est bien sûr reproductible et n'est pas une simple distribution aléatoire.
+
+## La suite
+Bien qu'il se rapproche plus d'un *proof of concept* que d'un produit fini, il serait facile de l'élever à un niveau supérieur. Par exemple, il n'y a que quatre liquides à mélanger. Nous pourrions en ajouter davantage. Aussi, le capteur cardiaque est le seul paramètre qui influence la distribution. Si l'on veut créer un brevage un peu plus à l'image de l'utilisateur, il me faudrait ajouter quelques vecteurs. Finalement, j'aimerais bien réécrire ce code avec une approche orientée objet. Disons que j'ai été contraint de ne pas m'y aventurer à ce moment, ce qui explique l'emploi de *struct*.
